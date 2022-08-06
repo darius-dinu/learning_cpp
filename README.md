@@ -8,3 +8,5 @@ git add . - Imi adaug toate fisierele din directorul curent la commit
 git commit -m "Text in care pot anunta eventuale modificari"
 
 git push origin main - Imi adaug commit-ul pe GitHub.
+
+cat ~/.ssh/id_rsa.pub
