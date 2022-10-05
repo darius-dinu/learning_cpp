@@ -8,12 +8,12 @@ int main(){
 
 
     for (int i = 0; i < 5; i++){        //Dorim sa parcurgem lista folosind un parametru (mai mic decat lungimea listei, incrementeaza de fiecare data) care aici corespunde cu indexul fiecarul element din vector
-        suma += lista[i];               //Prima iteratie: Suma = 1. A doua iteratie: Suma = 4. A treia iteratie: Suma = 9, etc.
+        suma += lista[i];               //Prima iteratie: suma = 1. A doua iteratie: suma = 4. A treia iteratie: suma = 9, etc.
     }
 
 
     for (int j = 0; j < 5; j++){       
-        produs *= lista[j];
+        produs *= lista[j];             //Prima iteratie: produs = 1. A doua iteratie: produs = 3. A treia iteratie: produs = 15, etc.
     }
 
 
