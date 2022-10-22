@@ -1,5 +1,5 @@
 // Maxime si minime:
-
+// Acest cod cere utilizatorului sa introduca de la tastatura trei numere si se vor afisa pe ecran cel mai mare si cel mai mic numar dintre numere.
 
 #include <iostream>
 using namespace std;
