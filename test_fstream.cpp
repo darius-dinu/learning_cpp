@@ -3,16 +3,16 @@
 using namespace std;
 
 
-ifstream fin ("test.in");
-ofstream fout ("test.out");
+ifstream fin ("test.in");   // Se defineste fisierul care va contine datele de intrare;
+ofstream fout ("test.out"); // Se defineste fisierul care va contine datele de iesire;
 int main()
 {
     int a, b;
-    fin >> a >> b;
-    fin.close();
+    fin >> a >> b;          // Cele doua numere se vor scrie in fisierul de input;
+    fin.close();            // Se inchide fisierul;
 
-    fout << a + b;
-    fout.close();
+    fout << a + b;          // Se va afisa rezultatul operatiei in fisierul care contine datele de iesire;
+    fout.close();           // Se inchide fisierul.
 
 
 }
