@@ -10,6 +10,4 @@ int main()                                  // In functie main, apelam functia s
 {
     salut("Darius");                         // Apelarea functiei salut cu parametrul "Darius"
     return 0;
-
-
 }
